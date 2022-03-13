@@ -1,0 +1,39 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.top-component-container {
+    width: 100%;
+    border: 2px solid;
+    height: 20vh;
+}
+
+.left-component-container {
+    width: 20%;
+    border: 2px solid;
+    height: 80vh;
+}
+
+.right-component-container {
+    width: 80%;
+    border: 2px solid;
+    height: 80vh;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.custom-input {
+    width: 90px;
+    font-size: 20px;
+}
